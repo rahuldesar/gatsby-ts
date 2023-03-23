@@ -1,7 +1,7 @@
-import * as React from "react";
-import type { HeadFC, PageProps } from "gatsby";
+import React from "react";
+import { HeadFC } from "gatsby";
 
-const IndexPage: React.FC<PageProps> = () => {
+const IndexPage: React.FC = () => {
   return (
     <main>
       <h1 className="text-3xl font-bold underline">Hello world!</h1>
